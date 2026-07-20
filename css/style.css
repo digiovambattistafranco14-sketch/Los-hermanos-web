@@ -550,50 +550,6 @@ h1, h2, h3{ font-family: var(--font-display); font-weight: 500; margin: 0; }
 .footer__bottom a{ color: rgba(244,234,214,.8); text-decoration: underline; }
 
 /* =========================================================
-   Anillo de progreso / volver arriba
-   ========================================================= */
-.progress-fab{
-  position: fixed;
-  right: 18px;
-  bottom: 18px;
-  z-index: 50;
-  width: 56px;
-  height: 56px;
-  border-radius: 50%;
-  background: var(--paper);
-  border: none;
-  box-shadow: 0 6px 18px var(--shadow);
-  cursor: pointer;
-  display: grid;
-  place-items: center;
-  opacity: 0;
-  transform: translateY(12px);
-  pointer-events: none;
-  transition: opacity .3s ease, transform .3s ease;
-}
-.progress-fab.is-visible{ opacity: 1; transform: translateY(0); pointer-events: auto; }
-.progress-fab svg{ width: 56px; height: 56px; }
-.progress-fab__track{ fill: none; stroke: var(--paper-line); stroke-width: 3; }
-.progress-fab__bar{
-  fill: none;
-  stroke: var(--bordo);
-  stroke-width: 3;
-  stroke-linecap: round;
-  transform: rotate(-90deg);
-  transform-origin: 50% 50%;
-  transition: stroke-dashoffset .1s linear;
-}
-.progress-fab__mark{
-  position: absolute;
-  width: 22px;
-  height: 22px;
-  left: 50%;
-  top: 50%;
-  transform: translate(-50%, -50%);
-  border-radius: 50%;
-}
-
-/* =========================================================
    Boton flotante de WhatsApp
    ========================================================= */
 .whatsapp-fab{

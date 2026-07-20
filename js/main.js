@@ -263,28 +263,6 @@
     });
   }
 
-  function setupProgress() {
-    var fab = document.getElementById("progressFab");
-    var bar = document.getElementById("progressBar");
-    var circumference = 150.8;
-
-    function update() {
-      var doc = document.documentElement;
-      var scrollTop = doc.scrollTop || document.body.scrollTop;
-      var max = doc.scrollHeight - doc.clientHeight;
-      var ratio = max > 0 ? Math.min(1, scrollTop / max) : 0;
-
-      bar.style.strokeDashoffset = String(circumference * (1 - ratio));
-      fab.classList.toggle("is-visible", scrollTop > window.innerHeight * 0.6);
-    }
-
-    document.addEventListener("scroll", update, { passive: true });
-    fab.addEventListener("click", function () {
-      window.scrollTo({ top: 0, behavior: "smooth" });
-    });
-    update();
-  }
-
   // El scroll con rueda/trackpad queda nativo (instantaneo); solo los clics
   // en enlaces internos (#id) animan el desplazamiento, via JS puntual.
   function setupSmoothAnchors() {
@@ -304,7 +282,6 @@
     renderInfo();
     setupHeaderReveal();
     setupMobileOverlay();
-    setupProgress();
 
     fetchLivePrices().then(function (livePrices) {
       renderMenu(livePrices);
