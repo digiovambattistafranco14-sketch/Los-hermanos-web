@@ -76,20 +76,20 @@
 
 <!-- ===================== ICONOS DE CAPITULO (linea fina, 48x48) ===================== -->
 
-<symbol id="icon-entradas" viewBox="0 0 48 48" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round">
-  <!-- cuchillo -->
-  <path d="M14 44 V24"/>
-  <path d="M11 24 C11 13 12 7 14 4 C16 7 17 13 17 24 Z"/>
-  <!-- tenedor, entero -->
-  <path d="M29 6 V19 M33.5 6 V19 M38 6 V19"/>
-  <path d="M29 19 C29 24 33 27 35.5 27 C38 27 42 24 42 19"/>
-  <path d="M35.5 27 V44"/>
+<!-- Iconos tomados de OpenMoji (variante "black", solo linea) - openmoji.org, CC BY-SA 4.0 -->
+
+<symbol id="icon-entradas" viewBox="0 0 72 72" fill="none">
+  <g>
+    <path fill="none" stroke="currentColor" stroke-miterlimit="10" stroke-width="2" d="M32.0706,26.2961 c0-5.9431-5.1204-12.161-5.1204-10.2961s0.9471,26.6324,0.9471,26.6324l-0.9471,16.1963c0,1.1046,0.8954,2,2,2s2-0.8954,2-2 l-0.5289-16.2893C30.4212,42.5394,32.0706,32.2392,32.0706,26.2961z"/>
+    <path fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" stroke-width="2" d="M45.9384,16.7398c0,0,0.1115,4.158,0.1115,8.1058c0,2.9609-0.8993,4.8203-2.1809,5.565l0,0l0.0285,28.4181c0,1.1046-0.8954,2-2,2 s-2-0.8954-2-2l0.8108-28.4123l0,0c-1.287-0.7408-2.191-2.6022-2.191-5.5708c0-3.9478,0.1115-8.1058,0.1115-8.1058"/>
+    <line x1="42.2835" x2="42.2835" y1="16.7398" y2="26.3247" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" stroke-width="2"/>
+  </g>
 </symbol>
 
-<symbol id="icon-empanadas" viewBox="0 0 48 48" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round">
-  <!-- media luna con repulgue (borde trenzado) -->
-  <path d="M6 28 C6 15 15 7 24 7 C33 7 42 15 42 28"/>
-  <path d="M42 28 L37 33 L33 28 L29 33 L25 28 L21 33 L17 28 L13 33 L6 28 Z" stroke-linejoin="round"/>
+<symbol id="icon-empanadas" viewBox="0 0 72 72" fill="none">
+  <g>
+    <path fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="m57.59 18.33a6.431 6.431 0 0 0-2.467-1.533 4.371 4.371 0 0 0-3.793-0.2243 4.477 4.477 0 0 0-6.104-2.962 4.46 4.46 0 0 0-6.223-0.2 4.445 4.445 0 0 0-6.532 0.5746 4.472 4.472 0 0 0-6.716 2.333 4.434 4.434 0 0 0-5.252 4.424 4.432 4.432 0 0 0 0.0549 0.5449 4.405 4.405 0 0 0-3.979 5.207 4.472 4.472 0 0 0-2.333 6.716 4.445 4.445 0 0 0-0.5746 6.532 4.445 4.445 0 0 0 0.5746 6.532 4.487 4.487 0 0 0 1.955 6.586 6.486 6.486 0 0 0 11.07 4.98l30.32-30.32a6.519 6.519 0 0 0-2e-4 -9.192z"/>
+  </g>
 </symbol>
 
 <symbol id="icon-arroz" viewBox="0 0 48 48" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round">
@@ -98,50 +98,57 @@
   <path d="M17 24 C15 18 17 12 22 9 M24 24 C24 17 24 12 26 8 M31 24 C33 18 32 13 28 9" stroke-width="1.2"/>
 </symbol>
 
-<symbol id="icon-minutas" viewBox="0 0 48 48" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round">
-  <!-- pedacito de carne, con marcas de parrilla -->
-  <path d="M9 17 C9 12 14 9 20 9 C28 9 39 13 39 22 C39 31 30 39 21 39 C13 39 8 33 8 27 C8 23 9 20 9 17 Z"/>
-  <path d="M14 16 L22 26 M20 13 L30 27 M27 15 L35 24" stroke-width="1.3"/>
+<symbol id="icon-minutas" viewBox="0 0 72 72" fill="none">
+  <g>
+    <path fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" stroke-width="2" d="M20.3223,48.1426l-3.7676,3.7676c-1.1719-1.1719-3.0723-1.1719-4.2432,0c-1.1709,1.1718-1.1709,3.0703,0.001,4.2421 c0.7383,0.7393,1.7656,1.0098,2.7188,0.8165c-0.1934,0.9531,0.0771,1.9804,0.8164,2.7187c1.1718,1.1719,3.0703,1.1719,4.2421,0.001 c1.1719-1.1709,1.1719-3.0713,0-4.2432l3.7676-3.7666"/>
+    <path fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" stroke-width="2" d="M20.3223,48.1426c0.789,0.4629,1.625,0.8164,2.4882,1.0469c0.2305,0.8632,0.584,1.6992,1.0469,2.4892"/>
+    <path fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" stroke-width="2" d="M51.6777,23.8569l3.7676-3.7675c1.1719,1.1718,3.0703,1.1718,4.2422,0c1.1719-1.1709,1.1719-3.0704,0-4.2422 c-0.7383-0.7383-1.7656-1.0098-2.7187-0.8164c0.1933-0.9532-0.0782-1.9805-0.8165-2.7188c-1.1718-1.1719-3.0722-1.1719-4.2441,0 c-1.1699,1.1709-1.1719,3.0703,0,4.2422l-3.7656,3.7676"/>
+    <path fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" stroke-width="2" d="M48.1426,20.3218c-0.418-0.7129-0.9258-1.3887-1.5371-2c-3.9043-3.9053-10.2354-3.9043-14.1407,0 c-0.9316,0.9316-1.6347,2.0039-2.121,3.1445c-0.4073,0.9541-0.5098,1.9844-0.7637,2.9746 c-0.6133,2.3965-2.6319,4.5059-5.0196,5.1343c-1.1074,0.291-2.2646,0.3906-3.3251,0.876 c-1.0538,0.4824-2.045,1.1455-2.9131,2.0136c-3.9053,3.9053-3.9063,10.2364,0,14.1426c0.6113,0.6114,1.2871,1.1182,2,1.5352"/>
+    <path fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" stroke-width="2" d="M51.6777,23.8569c-0.789-0.4629-1.6269-0.8154-2.4902-1.0459c-0.2305-0.8642-0.582-1.7002-1.0449-2.4892"/>
+    <path fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" stroke-width="2" d="M51.6777,23.8569c0.7129,0.418,1.3868,0.9239,2,1.5362c3.9043,3.9057,3.9043,10.2378-0.0019,14.1421 c-0.9317,0.9316-2.002,1.6347-3.1445,2.1211c-0.9532,0.4082-1.9825,0.5097-2.9727,0.7636 c-2.3955,0.6133-4.5059,2.6309-5.1338,5.0196c-0.291,1.1074-0.3906,2.2656-0.876,3.3261 c-0.4824,1.0537-1.1455,2.0449-2.0136,2.9121c-3.9053,3.9053-10.2364,3.9063-14.1426,0c-0.6113-0.6113-1.1172-1.2871-1.5352-1.999"/>
+  </g>
 </symbol>
 
-<symbol id="icon-ensaladas" viewBox="0 0 48 48" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round">
-  <!-- bowl -->
-  <path d="M8 26 C8 26 12 38 24 38 C36 38 40 26 40 26 Z"/>
-  <path d="M8 26 H40"/>
-  <path d="M24 38 V42 M19 42 H29"/>
-  <!-- hojas de verdura asomando del bowl -->
-  <path d="M16 27 C13 23 14 17 18 13 C19 18 19 24 16 27 Z" stroke-width="1.3"/>
-  <path d="M24 28 C21 23 21 14 24 10 C27 14 27 23 24 28 Z" stroke-width="1.3"/>
-  <path d="M32 27 C35 23 34 17 30 13 C29 18 29 24 32 27 Z" stroke-width="1.3"/>
+<symbol id="icon-ensaladas" viewBox="0 0 72 72" fill="none">
+  <g>
+    <path fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M50.2693,28.2022a5.1615,5.1615,0,0,1,2.9807.0393,5.83,5.83,0,0,1,2.56,1.689"/>
+    <path fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M33.2771,29.2289a5.8288,5.8288,0,0,1,2.8281-1.1871,5.16,5.16,0,0,1,2.9367.5118"/>
+    <path fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M17.5841,30.9305a5.8307,5.8307,0,0,1,2.56-1.689,5.1611,5.1611,0,0,1,2.9806-.0393"/>
+    <path fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M63.6508,30.9359A4.9051,4.9051,0,0,0,63.1,27.4a5.0971,5.0971,0,0,0-5.7-2.3,2.9614,2.9614,0,0,0-3.3-3.7A4.9778,4.9778,0,0,0,45.6,17a3.1021,3.1021,0,0,0-2.1-2.2,3.4405,3.4405,0,0,0-2.6.5,4.9559,4.9559,0,0,0-4.7-3.4,4.8455,4.8455,0,0,0-4.8,3.8,2.8031,2.8031,0,0,0-2.9-.8,3.0871,3.0871,0,0,0-2,1.7,4.9736,4.9736,0,0,0-5.8-.6,5.0971,5.0971,0,0,0-2.3,5.7A2.9614,2.9614,0,0,0,14.7,25a5.0362,5.0362,0,0,0-5.3,2.4,4.7548,4.7548,0,0,0-.6441,2.8857"/>
+    <path fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M65,35A29,29,0,0,1,7,35Z"/>
+  </g>
 </symbol>
 
-<symbol id="icon-parrilla" viewBox="0 0 48 48" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round">
-  <!-- parrilla -->
-  <path d="M6 34 H42" stroke-width="1.3"/>
-  <path d="M10 34 V39 M17 34 V39 M24 34 V39 M31 34 V39 M38 34 V39" stroke-width="1.1"/>
-  <!-- chorizo, con nudos -->
-  <rect x="4" y="18" width="22" height="9" rx="4.5" stroke-width="1.4"/>
-  <path d="M12 18 C11 20 11 25 12 27 M19 18 C18 20 18 25 19 27" stroke-width="1"/>
-  <!-- pedazo de carne al lado -->
-  <path d="M31 15 C27 15 25 19 27 23 C29 27 36 27 38 23 C40 19 35 14 31 15 Z" stroke-width="1.3"/>
-  <path d="M29 18 L34 24" stroke-width="1"/>
+<symbol id="icon-parrilla" viewBox="0 0 72 72" fill="none">
+  <g>
+    <path fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" stroke-width="2" d="M29,31c2.5,0,4.5029-1.4141,6.8164-3.7266C39.2695,23.8213,42.9746,21,48,21c8.2842,0,15,6.7158,15,15s-6.7158,15-15,15H19 c-5.5234,0-10-4.4775-10-10s4.4766-10,10-10"/>
+    <path fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" stroke-width="2" d="M26,27h-7c-7.7334,0-14,6.2666-14,14s6.2666,14,14,14h29c10.4951,0,19-8.5049,19-19s-8.5049-19-19-19 c-5.6934,0-10.79,2.5137-14.2695,6.4805C31.8965,25.6514,29.0645,27,26,27z"/>
+    <circle cx="48" cy="36" r="5" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" stroke-width="2"/>
+  </g>
 </symbol>
 
-<symbol id="icon-lomo" viewBox="0 0 48 48" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round">
-  <!-- gorro de chef, especialidades de la casa -->
-  <path d="M13 33 C9 33 7 29 9 25 C7 21 10 17 14 18 C15 13 21 11 24 15 C27 11 33 13 34 18 C38 17 41 21 39 25 C41 29 39 33 35 33 Z"/>
-  <rect x="13" y="33" width="22" height="7" rx="1"/>
+<symbol id="icon-lomo" viewBox="0 0 72 72" fill="none">
+  <g>
+    <path fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" stroke-width="2" d="M26.1996,20.8672c-1.0332,2.1368-1.6278,4.6421-1.6278,7.321c0,7.8276,5.0765,14.1732,11.3386,14.1732 S47.249,36.0158,47.249,28.1882c0-2.6789-0.5946-5.1842-1.6278-7.321"/>
+    <path fill="currentColor" stroke="none" d="M54.9104,57.8273c-0.5523,0-1-0.4477-1-1v-3c0-4.4516-4.4961-7.8105-8.6519-7.9921c-6.205,5.0117-12.4912,5.0117-18.6963,0 c-4.1557,0.1816-8.6518,3.5405-8.6518,7.9921v3c0,0.5523-0.4478,1-1,1c-0.5523,0-1-0.4477-1-1v-3 c0-5.3247,5.1401-9.9975,10.9995-10h0.0005c0.2339,0,0.4604,0.0821,0.6401,0.232c5.625,4.6875,11.0947,4.6875,16.7197,0 c0.1797-0.1499,0.4063-0.232,0.6402-0.232h0.0005c5.8593,0.0025,10.9995,4.6753,10.9995,10v3 C55.9104,57.3796,55.4626,57.8273,54.9104,57.8273z"/>
+    <path fill="currentColor" stroke="none" d="M41.9105,26.8274c0,1.1045-0.8965,2-2,2s-2-0.8955-2-2c0-1.1035,0.8965-2,2-2S41.9105,25.7239,41.9105,26.8274"/>
+    <path fill="currentColor" stroke="none" d="M33.9105,26.8274c0,1.1045-0.8965,2-2,2s-2-0.8955-2-2c0-1.1035,0.8965-2,2-2S33.9105,25.7239,33.9105,26.8274"/>
+    <path fill="currentColor" stroke="none" d="M35.9104,36.8298c-1.1519,0-2.3037-0.2862-3.4473-0.8579c-0.4941-0.2471-0.6943-0.8477-0.4472-1.3418 c0.2465-0.4937,0.8461-0.6944,1.3418-0.4473c1.7177,0.8594,3.3876,0.8594,5.1054,0c0.4946-0.2471,1.0947-0.0464,1.3418,0.4473 c0.2471,0.4941,0.0469,1.0947-0.4472,1.3418C38.2141,36.5436,37.0622,36.8298,35.9104,36.8298z"/>
+    <path fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" stroke-width="2" d="M26.5622,45.8352c0,0,3.6651,10.8583,20.1668,5.0964v5.8753"/>
+    <circle cx="28.4105" cy="55.8273" r="1.5" fill="currentColor" stroke="none"/>
+    <circle cx="43.4105" cy="55.8273" r="1.5" fill="currentColor" stroke="none"/>
+    <path fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" stroke-width="2" d="M26.1925,20.8672c-0.6529,1.3503-1.1307,2.8478-1.3939,4.4432l0.0644-0.361c0,0,3.2903,0.6195,8.457-3.7624"/>
+    <path fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" stroke-width="2" d="M45.4255,20.8672c0.6529,1.3503,1.1307,2.8478,1.3939,4.4432l-0.0644-0.361c0,0-3.2903,0.6195-8.4569-3.7624"/>
+    <line x1="26.2746" x2="26.2746" y1="14.8468" y2="20.9035" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" stroke-width="2"/>
+    <path fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" stroke-width="2" d="M26.2746,20.9035h19.2715v-0.5621v-5.4946c2.209,0,4-1.7908,4-4c0-2.2091-1.791-4-4-4c-0.8757,0-1.6789,0.2894-2.3376,0.7666 c0.3247-0.5782,0.5254-1.2355,0.5254-1.9459c0-2.2091-1.7908-4-4-4c-1.8202,0-3.339,1.2234-3.8235,2.8873 c-0.4845-1.6639-2.0034-2.8873-3.8236-2.8873c-2.2091,0-4,1.7909-4,4c0,0.7103,0.2007,1.3677,0.5254,1.9459 c-0.6587-0.4773-1.4619-0.7666-2.3376-0.7666c-2.2092,0-4,1.7909-4,4c0,2.2092,1.7908,4,4,4"/>
+  </g>
 </symbol>
 
-<symbol id="icon-supremas" viewBox="0 0 48 48" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round">
-  <!-- milanesa, borde ondulado tipo pan rallado -->
-  <path d="M24 9 C18 8 12 11 10 16 C7 19 9 23 8 27 C7 31 11 33 13 37 C16 41 22 41 26 39 C31 41 37 39 38 34 C41 31 39 27 40 23 C41 18 37 15 32 15 C30 10 27 10 24 9 Z"/>
-  <circle cx="18" cy="20" r="1" fill="currentColor" stroke="none"/>
-  <circle cx="25" cy="16" r="1" fill="currentColor" stroke="none"/>
-  <circle cx="31" cy="21" r="1" fill="currentColor" stroke="none"/>
-  <circle cx="15" cy="28" r="1" fill="currentColor" stroke="none"/>
-  <circle cx="23" cy="30" r="1" fill="currentColor" stroke="none"/>
-  <circle cx="32" cy="29" r="1" fill="currentColor" stroke="none"/>
+<symbol id="icon-supremas" viewBox="0 0 72 72" fill="none">
+  <g>
+    <path fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" stroke-width="2" d="M33.4932,61c1.0449,0,1.9629-0.5352,2.5-1.3457C36.5303,60.4648,37.4482,61,38.4922,61c1.6572,0,3.001-1.3437,3.001-2.999 c0-1.6572-1.3438-3.001-3-3.001v-6h-5v6c-1.6573,0-3.001,1.3438-3,3C30.4932,59.6582,31.8359,61,33.4932,61z"/>
+    <path fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" stroke-width="2" d="M40.877,12.7861c-0.7774-1.9394-2.667-3.3144-4.8838-3.3144s-4.1065,1.375-4.8838,3.3144 C24.6924,21.0107,24.3203,32.4092,29.9932,41c0,2.291,0,4.3369,0,5c0,1.6563,1.3437,3,3,3c1.6562,0,4.3437,0,6,0 c1.6562,0,3-1.3437,3-3c0-0.6631,0-2.709,0-5.001C47.666,32.4092,47.2949,21.0107,40.877,12.7861z"/>
+  </g>
 </symbol>
 
 <symbol id="icon-tortillas" viewBox="0 0 48 48" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round">
@@ -155,13 +162,23 @@
   <path d="M17 18 l2 2 M23 16 l2 2 M29 17 l2 2 M15 24 l2 2 M22 23 l2 2 M29 24 l2 2 M19 30 l2 2 M26 29 l2 2" stroke-width="1"/>
 </symbol>
 
-<symbol id="icon-pastas" viewBox="0 0 48 48" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round">
-  <!-- plato, visto desde arriba -->
-  <circle cx="24" cy="24" r="17"/>
-  <!-- nido de fideos: tiras onduladas superpuestas -->
-  <path d="M14 27 C14 21 18 18 22 21 C26 24 30 21 28 17" stroke-width="1.2"/>
-  <path d="M16 22 C18 18 23 18 24 22 C25 26 30 25 31 21" stroke-width="1.2"/>
-  <path d="M17 31 C21 29 25 31 26 27 C27 24 31 24 33 27" stroke-width="1.2"/>
+<symbol id="icon-pastas" viewBox="0 0 72 72" fill="none">
+  <g>
+    <path fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M10.8667,41.7489a25.1333,25.1333,0,1,0,50.2666,0Z"/>
+    <path fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M13.4667,39.1489a13.0019,13.0019,0,0,1,25.4778,0"/>
+    <path fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M17.9362,39.1489a8.6687,8.6687,0,0,1,16.5379,0"/>
+    <path fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M22.7588,39.1489a4.2946,4.2946,0,0,1,6.8944,0"/>
+    <path fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M38.6059,30.9156a13.0036,13.0036,0,0,1,19.9274,8.2333"/>
+    <path fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M41.0206,34.5151a8.6692,8.6692,0,0,1,13.0432,4.6338"/>
+    <path fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M42.9282,38.5176a4.2871,4.2871,0,0,1,6.313.6313"/>
+    <g>
+      <path fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M61,15.5946l-19.4123-.554h0c-.7408,1.287-2.6022,2.191-5.5708,2.191-3.9478,0-8.1058-.1115-8.1058-.1115"/>
+      <path fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M27.9113,9.8105s4.158-.1115,8.1058-.1115c2.9609,0,4.82.8993,5.565,2.1809h0L61,11.8605"/>
+      <line x1="27.9113" x2="37.4962" y1="13.4654" y2="13.4654" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"/>
+    </g>
+    <line x1="34.8705" x2="34.8705" y1="13.5222" y2="32.0589" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"/>
+    <line x1="30.5371" x2="30.5371" y1="13.5222" y2="25.6827" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"/>
+  </g>
 </symbol>
 
 <symbol id="icon-salsas" viewBox="0 0 48 48" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round">
@@ -179,15 +196,13 @@
   <circle cx="15" cy="22" r="1.4" fill="currentColor" stroke="none"/>
 </symbol>
 
-<symbol id="icon-postres" viewBox="0 0 48 48" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round">
-  <!-- copa (coupe) con frutillas adentro -->
-  <path d="M13 13 C13 13 15 25 24 25 C33 25 35 13 35 13 Z"/>
-  <path d="M24 25 V35 M18 35 H30"/>
-  <!-- frutillas, dentro de la copa -->
-  <path d="M20 15 C17 15 16 18 18 20.5 C19 22 20 22.5 20 22.5 C20 22.5 21 22 22 20.5 C24 18 23 15 20 15 Z"/>
-  <path d="M18.5 14.5 C19 13.5 20.5 13.5 21 14.5" stroke-width="1"/>
-  <path d="M28 13 C25 13 24 16 26 18.5 C27 20 28 20.5 28 20.5 C28 20.5 29 20 30 18.5 C32 16 31 13 28 13 Z"/>
-  <path d="M26.5 12.5 C27 11.5 28.5 11.5 29 12.5" stroke-width="1"/>
+<symbol id="icon-postres" viewBox="0 0 72 72" fill="none">
+  <g>
+    <path fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M41.8071,29.5342c5.2209-.622,8.8839-2.0776,8.8839-3.774,0-2.2624-6.5149-4.0964-14.5513-4.0964S22.0075,23.0787,21.5884,25.76L18.3975,45.094"/>
+    <path fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M51.2093,28.9006c0,2.2624-6.7469,4.0964-15.07,4.0964s-15.07-1.834-15.07-4.0964"/>
+    <path fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M53.8819,45.094,50.691,25.76"/>
+    <path fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M53.3545,41.8986C58.0682,43.3981,61,45.5027,61,47.8332c0,4.5534-11.1929,8.2446-25,8.2446s-25-3.6912-25-8.2446c0-2.3786,3.0543-4.522,7.94-6.0268"/>
+  </g>
 </symbol>
 
 <symbol id="icon-cafeteria" viewBox="0 0 48 48" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round">
@@ -196,20 +211,21 @@
   <path d="M17 12 C17 15 20 15 20 18 M24 12 C24 15 27 15 27 18" stroke-width="1.1"/>
 </symbol>
 
-<symbol id="icon-bebidas" viewBox="0 0 48 48" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round">
-  <!-- botellita -->
-  <rect x="21" y="6" width="6" height="4" rx="1"/>
-  <path d="M22 10 V16 C17 20 15 25 15 29 C15 35 19 39 24 39 C29 39 33 35 33 29 C33 25 31 20 26 16 V10 Z"/>
-  <path d="M15.5 27 H32.5" stroke-width="1" opacity=".6"/>
+<symbol id="icon-bebidas" viewBox="0 0 72 72" fill="none">
+  <g>
+    <polygon fill="none" stroke="currentColor" stroke-miterlimit="10" stroke-width="2" points="49.9235 50.25 51.9 35.85 20.4 35.85 22.6588 50.25 49.9235 50.25"/>
+    <polyline fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" points="54 20.55 47.7 66.45 25.2 66.45 18 20.55"/>
+    <line x1="18" x2="54" y1="20.55" y2="20.55" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"/>
+    <line x1="36" x2="36" y1="5" y2="17" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"/>
+  </g>
 </symbol>
 
-<symbol id="icon-cervezas" viewBox="0 0 48 48" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round">
-  <!-- jarra tipo pinta, con espuma y burbujas -->
-  <path d="M15 18 L13 37 C13 39 15 41 18 41 H27 C30 41 32 39 31 37 L29 18 Z"/>
-  <path d="M29 21 H34 C36 21 37 22 37 24 V29 C37 31 36 32 34 32 H28.5"/>
-  <path d="M16 18 C14 14 16 9 22 9 C27 9 28 13 27 18" stroke-width="1.1"/>
-  <circle cx="20" cy="13" r=".9" fill="currentColor" stroke="none"/>
-  <circle cx="24.5" cy="11.5" r=".9" fill="currentColor" stroke="none"/>
+<symbol id="icon-cervezas" viewBox="0 0 72 72" fill="none">
+  <g>
+    <path fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" stroke-width="2" d="M49.5,50.5h6c2.2,0,4-1.8,4-4v-14c0-2.2-1.8-4-4-4h-6"/>
+    <polyline fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" stroke-width="2.0185" points="38.5938,23.2301 48.9997,23.2301 48.9997,60 20,60 20,39.6348"/>
+    <path fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" stroke-width="2" d="M20.2515,31.3124c0.753-0.2628,1.3009-1.0182,1.3016-1.9033l0.0013-1.5991c0.5711,0.3722,1.2338,0.5981,1.9494,0.5987 l1.8546,0.0015c1.2022,0.0009,2.2653-0.6144,2.9581-1.5517c1.0256,1.5428,2.7125,2.5581,4.6153,2.5596 c3.1115,0.0025,5.6594-2.7007,5.662-6.0071l10.9214,0.0086c0.2098-0.627,0.3301-1.3002,0.3306-2.0036 c0.0026-3.3204-2.5278-6.0136-5.6525-6.016c-1.304-0.001-2.5018,0.4709-3.4585,1.2577c-0.9376-1.9375-2.8336-3.2665-5.0258-3.2682 c-0.8005-0.0006-1.5606,0.1771-2.2511,0.4952c-1.1199-1.5208-2.8597-2.5031-4.819-2.5046c-2.9465-0.0023-5.4063,2.205-5.997,5.1492 c-0.3479-0.0874-0.7061-0.1448-1.0785-0.1451c-2.6033-0.0021-4.7162,2.2396-4.7184,5.0059l-0.0063,8.0154 c-0.0009,1.1021,0.847,2.0045,1.8842,2.0053l0.9429,0.0007C19.87,31.4116,20.0669,31.3768,20.2515,31.3124"/>
+  </g>
 </symbol>
 
 <symbol id="icon-helados" viewBox="0 0 48 48" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round">
