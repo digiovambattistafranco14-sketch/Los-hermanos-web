@@ -203,6 +203,22 @@
     obs.observe(hero);
   }
 
+  // Centra la pestaña activa dentro del indice horizontal, moviendo
+  // unicamente el scrollLeft de ese contenedor. A proposito NO usa
+  // scrollIntoView: ese metodo puede terminar ajustando tambien el
+  // scroll vertical de la pagina (sobre todo con un header sticky
+  // animado), lo que "peleaba" contra el scroll del usuario cada vez
+  // que cambiaba de capitulo.
+  function centerNavLink(link) {
+    var nav = document.querySelector(".index-nav");
+    if (!nav || !link) return;
+    var navRect = nav.getBoundingClientRect();
+    var linkRect = link.getBoundingClientRect();
+    var delta = (linkRect.left + linkRect.width / 2) - (navRect.left + navRect.width / 2);
+    if (Math.abs(delta) < 4) return;
+    nav.scrollBy({ left: delta, behavior: "smooth" });
+  }
+
   function setupActiveNav() {
     var links = Array.prototype.slice.call(document.querySelectorAll(".index-nav__link"));
     var sections = MENU_CHAPTERS.map(function (c) { return document.getElementById(c.id); });
@@ -215,7 +231,7 @@
             link.classList.toggle("is-active", link.dataset.chapter === entry.target.id);
           });
           var active = document.querySelector('.index-nav__link[data-chapter="' + entry.target.id + '"]');
-          if (active) active.scrollIntoView({ block: "nearest", inline: "center", behavior: "smooth" });
+          centerNavLink(active);
         });
       },
       { rootMargin: "-30% 0px -55% 0px", threshold: 0 }
