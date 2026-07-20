@@ -32,10 +32,12 @@
 }
 
 *, *::before, *::after{ box-sizing: border-box; }
-html{ scroll-behavior: smooth; }
+
+/* El scroll suave se maneja puntualmente por JS en los clics de navegacion
+   (ver setupSmoothAnchors en main.js). Dejar scroll-behavior:smooth global
+   hace que la rueda del mouse / trackpad se sienta pesada o resistente. */
 
 @media (prefers-reduced-motion: reduce){
-  html{ scroll-behavior: auto; }
   *, *::before, *::after{ animation-duration: .001ms !important; animation-iteration-count: 1 !important; transition-duration: .001ms !important; scroll-behavior: auto !important; }
 }
 
@@ -259,36 +261,33 @@ h1, h2, h3{ font-family: var(--font-display); font-weight: 500; margin: 0; }
   border: 1px solid var(--paper-line);
 }
 
-.hero__medallion{
-  width: min(46vw, 300px);
-  height: min(46vw, 300px);
-  color: var(--bordo);
-  margin-bottom: 8px;
+.hero__logo{
+  width: min(70vw, 380px);
+  height: auto;
+  margin-bottom: 18px;
 }
 
-.hero__eyebrow{
-  font-family: var(--font-mono);
-  font-size: .78rem;
-  letter-spacing: .28em;
-  text-transform: uppercase;
-  color: var(--brass);
-  margin: 18px 0 6px;
+.hero__menu-row{
+  display: flex;
+  align-items: center;
+  gap: 18px;
+  margin-top: 6px;
+}
+.hero__menu-line{
+  width: clamp(30px, 8vw, 90px);
+  height: 1px;
+  background: linear-gradient(90deg, transparent, var(--brass), var(--brass));
+}
+.hero__menu-row .hero__menu-line:last-child{
+  background: linear-gradient(90deg, var(--brass), var(--brass), transparent);
 }
 
-.hero__title{
-  font-size: clamp(2.6rem, 9vw, 5.2rem);
+.hero__menu-label{
+  font-size: clamp(2.2rem, 7vw, 3.6rem);
   font-style: italic;
   color: var(--bordo-deep);
-  line-height: .95;
-}
-
-.hero__place{
-  font-family: var(--font-body);
-  font-style: italic;
-  font-size: 1.05rem;
-  color: var(--ink-soft);
-  margin-top: 10px;
-  letter-spacing: .03em;
+  letter-spacing: .04em;
+  line-height: 1;
 }
 
 .hero__tagline{
@@ -325,7 +324,11 @@ h1, h2, h3{ font-family: var(--font-display); font-weight: 500; margin: 0; }
   gap: 6px;
   color: var(--bordo);
   opacity: .7;
+  text-decoration: none;
+  cursor: pointer;
+  transition: opacity .2s ease;
 }
+.hero__scroll:hover{ opacity: 1; }
 .hero__scroll span{
   font-family: var(--font-mono);
   font-size: .65rem;

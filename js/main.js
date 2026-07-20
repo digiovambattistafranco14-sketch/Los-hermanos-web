@@ -269,6 +269,21 @@
     update();
   }
 
+  // El scroll con rueda/trackpad queda nativo (instantaneo); solo los clics
+  // en enlaces internos (#id) animan el desplazamiento, via JS puntual.
+  function setupSmoothAnchors() {
+    document.querySelectorAll('a[href^="#"]').forEach(function (link) {
+      link.addEventListener("click", function (e) {
+        var id = link.getAttribute("href").slice(1);
+        var target = id && document.getElementById(id);
+        if (!target) return;
+        e.preventDefault();
+        target.scrollIntoView({ behavior: "smooth", block: "start" });
+        history.pushState(null, "", "#" + id);
+      });
+    });
+  }
+
   document.addEventListener("DOMContentLoaded", function () {
     renderInfo();
     setupHeaderReveal();
@@ -278,6 +293,7 @@
     fetchLivePrices().then(function (livePrices) {
       renderMenu(livePrices);
       setupActiveNav();
+      setupSmoothAnchors();
     });
   });
 })();
