@@ -7,7 +7,7 @@
   // Capitulos despues de los cuales se inserta una ilustracion separadora,
   // tal como aparecen intercaladas en la carta impresa original.
   var DIVIDERS_AFTER = {
-    milanesas: "illus-refrescos",
+    cafeteria: "illus-refrescos",
     helados: "illus-brindis"
   };
 
