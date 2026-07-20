@@ -1,0 +1,189 @@
+<svg xmlns="http://www.w3.org/2000/svg" style="display:none">
+<defs>
+
+<!-- ===================== LOGO DE RESPALDO (se reemplaza por assets/img/logo.png si existe) ===================== -->
+<symbol id="icon-logo" viewBox="0 0 100 100" fill="none" stroke="currentColor" stroke-width="1.6">
+  <circle cx="50" cy="50" r="46"/>
+  <circle cx="50" cy="50" r="39"/>
+  <text x="50" y="62" text-anchor="middle" font-family="Fraunces, serif" font-style="italic" font-size="40" stroke="none" fill="currentColor">LH</text>
+</symbol>
+
+<!-- ===================== MEDALLON DE PORTADA ===================== -->
+<symbol id="icon-medallion" viewBox="0 0 240 240" fill="none" stroke="currentColor" stroke-width="1">
+  <circle cx="120" cy="120" r="112" stroke-width="1.2"/>
+  <circle cx="120" cy="120" r="100" stroke-width=".7"/>
+  <g stroke-width=".9">
+    <g id="mLeaf">
+      <path d="M120 20 C 128 34 128 46 120 58 C 112 46 112 34 120 20 Z"/>
+      <path d="M120 20 C 120 32 120 46 120 58" stroke-width=".5"/>
+      <path d="M106 44 C 110 40 116 39 120 42" stroke-width=".5"/>
+      <path d="M134 44 C 130 40 124 39 120 42" stroke-width=".5"/>
+    </g>
+    <use href="#mLeaf" transform="rotate(45 120 120)"/>
+    <use href="#mLeaf" transform="rotate(90 120 120)"/>
+    <use href="#mLeaf" transform="rotate(135 120 120)"/>
+    <use href="#mLeaf" transform="rotate(180 120 120)"/>
+    <use href="#mLeaf" transform="rotate(225 120 120)"/>
+    <use href="#mLeaf" transform="rotate(270 120 120)"/>
+    <use href="#mLeaf" transform="rotate(315 120 120)"/>
+  </g>
+  <g stroke-width=".6" opacity=".8">
+    <path d="M120 66 C 100 78 96 96 106 112 C 92 108 82 116 80 130" />
+    <path d="M120 66 C 140 78 144 96 134 112 C 148 108 158 116 160 130" />
+  </g>
+  <circle cx="120" cy="120" r="46" stroke-width=".8"/>
+  <text x="120" y="132" text-anchor="middle" font-family="Fraunces, serif" font-style="italic" font-size="30" letter-spacing="2" stroke="none" fill="currentColor">MENU</text>
+</symbol>
+
+<!-- ===================== SEPARADOR: refrescos (sifon, lata, vaso) ===================== -->
+<symbol id="illus-refrescos" viewBox="0 0 260 120" fill="none" stroke="currentColor" stroke-width="1.3" stroke-linecap="round" stroke-linejoin="round">
+  <!-- sifon -->
+  <path d="M40 100 V54 C40 44 48 38 58 38 C68 38 76 44 76 54 V100 Z"/>
+  <path d="M40 62 H76"/>
+  <path d="M50 38 V26 C50 20 54 16 60 16" />
+  <path d="M60 16 H70"/>
+  <path d="M76 70 C90 68 96 74 92 82 C88 88 78 86 76 78"/>
+  <!-- lata -->
+  <rect x="112" y="46" width="30" height="54" rx="3"/>
+  <ellipse cx="127" cy="46" rx="15" ry="4"/>
+  <ellipse cx="127" cy="100" rx="15" ry="4"/>
+  <path d="M120 60 H134 M120 70 H134 M120 80 H134" stroke-width=".8" opacity=".6"/>
+  <!-- vaso con hielo y sorbete -->
+  <path d="M172 52 L178 100 H206 L212 52 Z"/>
+  <path d="M172 52 H212"/>
+  <rect x="182" y="60" width="10" height="10" transform="rotate(18 187 65)" opacity=".7"/>
+  <rect x="194" y="70" width="9" height="9" transform="rotate(-12 198 74)" opacity=".7"/>
+  <path d="M200 40 L188 100" stroke-width="1.6"/>
+</symbol>
+
+<!-- ===================== SEPARADOR: brindis con copas de vino ===================== -->
+<symbol id="illus-brindis" viewBox="0 0 260 120" fill="none" stroke="currentColor" stroke-width="1.3" stroke-linecap="round" stroke-linejoin="round">
+  <g>
+    <path d="M96 20 C82 20 74 30 78 44 C81 55 90 60 96 62 V92" transform="rotate(-14 96 56)"/>
+    <path d="M78 44 H114" transform="rotate(-14 96 56)"/>
+    <path d="M96 20 C110 20 118 30 114 44 C111 55 102 60 96 62" transform="rotate(-14 96 56)"/>
+    <path d="M84 92 H108" transform="rotate(-14 96 56)"/>
+    <path d="M82 40 C82 50 88 56 96 58 C104 56 110 50 110 42 C110 42 100 46 96 46 C92 46 82 40 82 40 Z" fill="currentColor" stroke="none" opacity=".85" transform="rotate(-14 96 56)"/>
+  </g>
+  <g>
+    <path d="M164 20 C150 20 142 30 146 44 C149 55 158 60 164 62 V92" transform="rotate(14 164 56)"/>
+    <path d="M146 44 H182" transform="rotate(14 164 56)"/>
+    <path d="M164 20 C178 20 186 30 182 44 C179 55 170 60 164 62" transform="rotate(14 164 56)"/>
+    <path d="M152 92 H176" transform="rotate(14 164 56)"/>
+    <path d="M150 40 C150 50 156 56 164 58 C172 56 178 50 178 42 C178 42 168 46 164 46 C160 46 150 40 150 40 Z" fill="currentColor" stroke="none" opacity=".85" transform="rotate(14 164 56)"/>
+  </g>
+</symbol>
+
+<!-- ===================== ICONOS DE CAPITULO (linea fina, 48x48) ===================== -->
+
+<symbol id="icon-entradas" viewBox="0 0 48 48" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round">
+  <path d="M14 8 V22 M11 8 V17 C11 20 17 20 17 17 V8"/>
+  <path d="M34 8 C28 8 28 16 34 18 V40"/>
+  <path d="M34 8 V40" transform="translate(0,0)"/>
+</symbol>
+
+<symbol id="icon-empanadas" viewBox="0 0 48 48" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round">
+  <path d="M8 26 C8 14 18 8 24 8 C30 8 40 14 40 26 C40 34 32 40 24 40 C16 40 8 34 8 26 Z"/>
+  <path d="M14 26 L18 22 L22 26 L26 22 L30 26 L34 22" stroke-width="1.3"/>
+</symbol>
+
+<symbol id="icon-arroz" viewBox="0 0 48 48" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round">
+  <ellipse cx="24" cy="30" rx="17" ry="9"/>
+  <path d="M7 30 C7 36 15 40 24 40 C33 40 41 36 41 30"/>
+  <path d="M17 24 C15 18 17 12 22 9 M24 24 C24 17 24 12 26 8 M31 24 C33 18 32 13 28 9" stroke-width="1.2"/>
+</symbol>
+
+<symbol id="icon-minutas" viewBox="0 0 48 48" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round">
+  <path d="M9 20 C9 12 16 9 24 9 C32 9 39 12 39 20 C39 26 34 27 24 27 C14 27 9 26 9 20 Z"/>
+  <path d="M12 27 L15 39 M36 27 L33 39 M24 27 V39"/>
+</symbol>
+
+<symbol id="icon-ensaladas" viewBox="0 0 48 48" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round">
+  <path d="M8 22 C8 22 12 34 24 34 C36 34 40 22 40 22 Z"/>
+  <path d="M8 22 H40"/>
+  <path d="M16 22 C16 16 20 12 24 18 C28 12 32 16 32 22" stroke-width="1.2"/>
+  <path d="M24 34 V39 M18 39 H30"/>
+</symbol>
+
+<symbol id="icon-parrilla" viewBox="0 0 48 48" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round">
+  <rect x="8" y="16" width="32" height="8" rx="1"/>
+  <path d="M12 24 L9 40 M18 24 L16 40 M30 24 L32 40 M36 24 L39 40" stroke-width="1.2"/>
+  <path d="M8 20 H40" stroke-width="1" opacity=".6"/>
+</symbol>
+
+<symbol id="icon-lomo" viewBox="0 0 48 48" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round">
+  <path d="M10 30 C10 20 18 14 26 16 C33 17 34 24 30 27 C36 27 40 31 38 36 C36 40 28 40 24 37 C18 41 10 38 10 30 Z"/>
+</symbol>
+
+<symbol id="icon-supremas" viewBox="0 0 48 48" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round">
+  <path d="M24 9 C14 9 9 17 9 25 C9 33 16 39 24 39 C32 39 39 33 39 25 C39 17 34 9 24 9 Z"/>
+  <path d="M24 9 C21 15 21 20 24 24 C27 20 27 15 24 9 Z" stroke-width="1.2"/>
+</symbol>
+
+<symbol id="icon-tortillas" viewBox="0 0 48 48" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round">
+  <ellipse cx="24" cy="26" rx="18" ry="10"/>
+  <path d="M9 21 C9 21 24 13 39 21" stroke-width="1.2"/>
+  <path d="M14 30 h5 M22 32 h5 M30 29 h5" stroke-width="1.1" opacity=".7"/>
+</symbol>
+
+<symbol id="icon-milanesas" viewBox="0 0 48 48" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round">
+  <path d="M12 14 C10 22 10 30 14 36 C22 40 30 38 36 32 C40 26 38 16 32 12 C24 8 16 8 12 14 Z"/>
+  <path d="M17 18 l2 2 M23 16 l2 2 M29 17 l2 2 M15 24 l2 2 M22 23 l2 2 M29 24 l2 2 M19 30 l2 2 M26 29 l2 2" stroke-width="1"/>
+</symbol>
+
+<symbol id="icon-pastas" viewBox="0 0 48 48" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round">
+  <ellipse cx="24" cy="32" rx="17" ry="7"/>
+  <path d="M11 32 C11 20 15 12 15 12 M18 32 C18 21 21 11 21 11 M24 32 C24 22 24 10 24 10 M30 32 C30 21 27 11 27 11 M37 32 C37 20 33 12 33 12" stroke-width="1.1"/>
+</symbol>
+
+<symbol id="icon-salsas" viewBox="0 0 48 48" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round">
+  <path d="M20 8 V16 M28 8 V16 M18 16 H30 L28 24 H20 Z"/>
+  <path d="M22 24 L18 40 H30 L26 24" stroke-linejoin="round"/>
+</symbol>
+
+<symbol id="icon-pollos" viewBox="0 0 48 48" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round">
+  <path d="M20 40 C14 34 12 26 16 18 C19 12 26 9 31 13 C27 13 24 16 24 20 C30 18 34 21 34 26 C34 26 29 24 27 26 C33 27 35 32 32 37 C28 33 24 34 22 37 Z"/>
+</symbol>
+
+<symbol id="icon-pescados" viewBox="0 0 48 48" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round">
+  <path d="M8 24 C14 14 26 12 34 18 C40 22 40 26 34 30 C26 36 14 34 8 24 Z"/>
+  <path d="M34 18 L42 12 M34 30 L42 36 M34 24 H42" stroke-width="1.2"/>
+  <circle cx="15" cy="22" r="1.4" fill="currentColor" stroke="none"/>
+</symbol>
+
+<symbol id="icon-postres" viewBox="0 0 48 48" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round">
+  <path d="M14 18 C14 12 34 12 34 18 C34 22 30 22 30 18 C30 24 24 24 24 18 C24 24 18 24 18 18 C18 22 14 22 14 18 Z"/>
+  <path d="M18 24 L21 40 H27 L30 24"/>
+</symbol>
+
+<symbol id="icon-cafeteria" viewBox="0 0 48 48" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round">
+  <path d="M12 18 H32 V28 C32 34 27 38 22 38 C17 38 12 34 12 28 Z"/>
+  <path d="M32 20 C38 20 38 30 32 30" />
+  <path d="M17 12 C17 15 20 15 20 18 M24 12 C24 15 27 15 27 18" stroke-width="1.1"/>
+</symbol>
+
+<symbol id="icon-bebidas" viewBox="0 0 48 48" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round">
+  <path d="M18 8 H30 L28 20 C33 24 33 32 28 36 C25 39 23 39 20 36 C15 32 15 24 20 20 Z"/>
+  <path d="M18 20 H30" stroke-width="1.1" opacity=".7"/>
+</symbol>
+
+<symbol id="icon-cervezas" viewBox="0 0 48 48" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round">
+  <path d="M14 16 H28 V36 C28 38 26 40 24 40 H18 C16 40 14 38 14 36 Z"/>
+  <path d="M28 20 H33 C35 20 36 21 36 23 V27 C36 29 35 30 33 30 H28"/>
+  <path d="M14 16 C14 12 16 10 21 10 C25 10 26 13 25 16" stroke-width="1.1"/>
+</symbol>
+
+<symbol id="icon-helados" viewBox="0 0 48 48" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round">
+  <circle cx="24" cy="16" r="8"/>
+  <path d="M18 20 L24 40 L30 20" stroke-linejoin="round"/>
+  <path d="M16 16 H32" stroke-width="1.1" opacity=".6"/>
+</symbol>
+
+<symbol id="icon-vinos" viewBox="0 0 48 48" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round">
+  <path d="M15 8 H33 L30 22 C30 28 26 30 24 30 C22 30 18 28 18 22 Z"/>
+  <path d="M24 30 V40 M17 40 H31" />
+  <path d="M18 14 H30" stroke-width="1.1" opacity=".6"/>
+</symbol>
+
+</defs>
+</svg>
